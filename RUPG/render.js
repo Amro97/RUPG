@@ -29,7 +29,7 @@ class Renderer {
         $(".meat-container").empty()
         $(".meat-container").append("<p>About Me:</p>")
         for(let m in meatArr){
-            $(".meat-container").append(`<span class='meat-text'>${meatArr[m]}</span>`)
+            $(".meat-container").append(`<h5 class='meat-text'>${meatArr[m]}</h5>`)
         }
     }
 }
